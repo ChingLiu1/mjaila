@@ -1,35 +1,101 @@
 @media(max-width: 1279px){
-	.section5 section {margin-top: 0;}
-	.section3 p {padding: 0 30px;}
-	.inner-background h1 {top: 25%;}
+	.section5 section {
+		margin-top: 0;
+	}
+
+	.section3 p {
+		padding: 0 30px;
+	}
+
+	.inner-background h1 {
+		top: 25%;
+	}
+
 }
+
 @media(max-width: 1080px){}
+
 @media(max-width: 991px){
-	.section2 h2 {font-size: 25px;}
-	.section3 p {padding: 0 5px; font-size: 18px;}
-	.section5 p { font-size: 23px;}
-	.inner-background h1 {top: 15%;}
-	.section7 h3 {font-size: 22px;}
-	.section7 section ul li {font-size: 22px;}
-	.section7 ul li{margin-left: 15px;}
+	.section2 h2
+	{font-size: 25px;
+	}
+
+	.section3 p {
+		padding: 0 5px; font-size: 18px;
+	}
+
+	.section5 p {
+		font-size: 23px;
+	}
+
+	.inner-background h1 {
+		top: 15%;
+	}
+
+	.section7 h3 {
+		font-size: 22px;
+	}
+	.section7 section ul li {
+		font-size: 22px;
+	}
+
+	.section7 ul li{
+		margin-left: 15px;
+	}
 }
+
 @media(max-width: 767px){
-	.section4 img{margin-bottom: 20px;}
-	.section5 img{margin: 0 auto;}
-	.section4 h4 span{display: block;}
-	header .navbar-default ul{float: left;}
-	header .navbar-default ul li {display: block;margin: 15px auto;}
-	.navbar-default .navbar-nav>li>a{border: 0;}
-	header .top-header ul{margin-top: 15px;}
-	.section8 form{margin-top: 30px;} 	
+	.section4 img{
+		margin-bottom: 20px;
+	}
+
+	.section5 img{
+		margin: 0 auto;
+	}
+
+	.section4 h4 span{
+		display: block;
+	}
+
+	header .navbar-default ul{
+		float: left;
+	}
+
+	header .navbar-default ul li {
+		display: block;margin: 15px auto;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		border: 0;
+	}
+
+	header .top-header ul{
+		margin-top: 15px;
+	}
+
+	.section8 form{
+		margin-top: 30px;
+	}
+
 	.inner-background h1 {top: 0%;}
 }
+
 @media(max-width: 600px){
-	footer p {font-size: 17px;}
-	.section4 p {font-size: 22px;}
-	.section2 h2 { font-size: 20px;}	
-	.inner-background h1 {font-size: 25px;}
-	.inner-background { margin-bottom: 0px;}
+	footer p {
+		font-size: 17px;
+	}
+	.section4 p {
+		font-size: 22px;
+	}
+	.section2 h2 {
+		font-size: 20px;
+	}
+	.inner-background h1 {
+		font-size: 25px;
+	}
+	.inner-background {
+		margin-bottom: 0px;
+	}
 
 }
 @media(max-width: 480px){

@@ -1,92 +1,285 @@
-@font-face {
-    font-family: 'Myriad Roman';
-    src: url('../fonts/Myriad-Roman.woff2') format('woff2'),
-        url('../fonts/Myriad-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Myriad Roman';
-    src: url('../fonts/Myriad-Bold.woff2') format('woff2'),
-        url('../fonts/Myriad-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
 
 *, html, body{padding:0; border: 0; margin: 0;}
-body{background: #f4eee4;}
-header .top-header{background-image: linear-gradient(#122d40, #09151e); padding: 20px 0;}
-header .logo{margin-top: 10px; display: inline-block;}
-header .top-header ul{margin: 0;}
-header .top-header ul li{display: inline-block;margin: auto 2px;}
-header .top-header h3{margin: 5px auto 0;font-family: 'Myriad Roman'; font-size: 26px; font-weight: 700;}
-header .top-header h3 a{color: #ee8805;}
-header .top-header h4{margin: 5px auto 0;font-family: 'Myriad Roman'; font-size: 18px; text-decoration: underline;}
-header .top-header h4 a{color: #83cbf5;}
-header .navbar-default{background-image: linear-gradient(#ee8705, #ee6a05); padding: 10px 0; border: 0;}
-header .navbar-default ul{float: none;margin: 0 auto;display: table;table-layout: fixed; padding: 20px 0;}
-header .navbar-default ul li{display: table-cell;}
-.navbar-default .navbar-nav>li>a{font-family: 'Myriad Roman'; font-size: 17px; color: #fff; font-weight: 700; border-right: 2px solid #3fda2f; padding:0 45px;}
-.navbar-default .navbar-nav>li:last-child>a{border-right: 0; padding-right: 0;}
-.navactive span{border-bottom: 2px dashed #000; padding-bottom: 10px;}
-.section1 img{width: 100%; display: inline-block;}
-.section1 .carousel{margin-bottom:5px;}
-.section1 .carousel-indicators{width: auto; left: 100%;right: 0;}
-.section1 .carousel-indicators li{border-radius: 0;border:1px solid #000;background: #999;}
-.section1 .carousel-indicators li.active{background: #fff;}
-.section1 h1{font-family: 'Myriad Roman'; font-size: 23px; color: #ee8305; font-weight: 700; text-transform: uppercase;}
-.section1 p{font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838; padding:10px 30px; line-height: 1.6;}
-.section2{background: url(../images/section2.png); background-size: cover;background-repeat: no-repeat;}
-.section2 h2{font-family: 'Myriad Roman'; font-size: 35px; color: #efe101; font-weight: 700;line-height: 1.5;}
-.section3{background: #0c1f2a; padding: 40px 0;}
-.section3 img{display: inline-block;}
-.section3 h3{font-family: 'Myriad Roman'; font-size: 23px; color: #ee8305; font-weight: 700;}
-.section3 p{font-family: 'Myriad Roman'; font-size: 19px; color: #fff; margin-top: 20px; padding: 0 40px;}
-.section3 p span{color: #ee8305; font-weight: 700; display: block; margin-top: 40px;}
-.section3 p a{color: #fff; display: block;}
-.section4 {padding: 40px 0;}
-.section4 img{display: inline-block;}
-.section4 h3{font-family: 'Myriad Roman'; font-size: 31px; color: #ee8305; font-weight: 700; text-transform: uppercase;margin-top: 30px;}
-.section4 p{font-family: 'Myriad Roman'; font-size: 24px; color: #7a7a75;}
-.section5{background: url(../images/section5-bg.png); background-repeat: no-repeat;background-size: cover; background-attachment: fixed;}
-.section5 p{font-family: 'Myriad Roman'; font-size: 30px; color: #000; font-weight: 700; margin-top: 30px;}
-.section5 section{margin-top: 40px; display: inline-block;}
-.section4 h4{font-family: 'Myriad Roman'; font-size: 27px; color: #10293a; font-weight: 700;}
-.section4 h4 a{color: #10293a;}
-footer{background: url(../images/footer.png); background-size: cover; background-repeat: no-repeat;padding: 50px 0;}
-footer p span a{font-family: 'Myriad Roman'; font-size: 21px; color: #ee8505; font-weight: 700;}
-footer p{font-family: 'Myriad Roman'; font-size: 17px; color: #bbbaba;}
-footer p a{color: #bbbaba;}
-.inner-background{position: relative;margin-bottom: 5px;}
-.inner-background h1{position: absolute;left: 0; right: 0; top: 35%;color: #fff;font-family: 'Myriad Roman'; font-size: 35px;font-weight: 700;text-transform: uppercase;}
-.section6 img{width: 100%; display: inline-block;}
-.section7{padding: 40px 0;}
-.section7 h4{font-family: 'Myriad Roman'; font-size: 23px; color: #ee8505; font-weight: 700;}
-.section7 ul li{font-family: 'Myriad Roman'; font-size: 18px;list-style-image: url(../images/list-item.png); margin: 10px auto;}
-.section7 h5{font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838; font-weight: 700;line-height: 1.8;margin: 20px auto;}
-.section7 img{display: inline-block;}
-.section7 h3{font-family: 'Myriad Roman'; font-size: 24px; color: #3c3838; font-weight: 700;line-height: 1.8;margin: 20px auto;}
-.section7 p{font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838;line-height: 1.8;margin: 20px auto;}
-.section7 section{margin: 20px auto; background: #ee7c05; padding: 20px 20px;}
-.section7 section ul li{font-weight: 700; font-size: 27px;list-style-image: url(../images/list-item2.png); color: #ebd663;margin-left: 30px;}
-.section8{padding: 40px 0;}
-.section8 section{background: #fff;padding: 30px 0;border: 1px solid #333;}
-.section8 img{display: inline-block;}
-.section8 section h3{font-family: 'Myriad Roman'; font-size: 21px; color: #ee8505; font-weight: 700;}
-.section8 section p{font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838;}
-.section8 section p a{color: #3c3838;}
-.section8 .form-control{border: 1px solid #777272; border-radius: 0;}
-.section8 .btn{background: #ee8305; color: #fff; padding: 10px 30px;font-weight: 700;font-family: 'Myriad Roman'; font-size: 17px;}
-.section8 label{font-family: 'Myriad Roman'; font-size: 16px; color: #777272;}
-@keyframes zoomIn{0%{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}}
-.alert{ animation-name: zoomIn; animation-duration: 1s; animation-fill-mode: both; background: #020202c7; color: #fff; max-width: 800px; top:45%; font-size: 20px; height: 200px; text-align: center; position: fixed; z-index: 9999; left: 0; right: 0; line-height: 28px; padding-top: 80px; box-shadow: 0px 0px 10px #000; margin: 0 auto; }
-.alert button{color:#fff; opacity:1;}
-.notfound-pg {min-height: 340px;}
-.notfound-pg h1 {font-family: 'Myriad Roman';font-size: 70px;margin: 80px 0 0 0;font-weight: bold;color: #ee7305;text-shadow: 1px 1px 0 #000;}
-.notfound-pg h3 {font-size: 26px;color: #000;text-align: center;margin: 10px 0 20px 0;}
-.notfound-pg p {font-size: 16px;color: #333;text-align: center;margin: 0;
+body{
+  background: #f4eee4;
 }
+
+header .top-header{
+  background-image: linear-gradient(#122d40, #09151e); padding: 20px 0;}
+
+header .logo{
+  margin-top: 10px; display: inline-block;
+}
+
+header .top-header ul{
+  margin: 0;
+}
+
+header .top-header ul li{
+  display: inline-block;margin: auto 2px;
+}
+
+header .top-header h3{
+  margin: 5px auto 0;font-family: 'Myriad Roman'; font-size: 26px; font-weight: 700;
+}
+
+header .top-header h3 a{
+  color: #ee8805;
+}
+
+header .top-header h4{
+  margin: 5px auto 0;font-family: 'Myriad Roman'; font-size: 18px; text-decoration: underline;
+}
+
+header .top-header h4 a{
+  color: #83cbf5;
+}
+
+header .navbar-default{
+  background-image: linear-gradient(#ee8705, #ee6a05); padding: 10px 0; border: 0;
+}
+
+header .navbar-default ul{
+  float: none;margin: 0 auto;display: table;table-layout: fixed; padding: 20px 0
+}
+
+header .navbar-default ul li{
+  display: table-cell;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-family: 'Myriad Roman'; font-size: 17px; color: #fff; font-weight: 700; border-right: 2px solid #3fda2f; padding:0 45px;
+}
+
+
+.navbar-default .navbar-nav>li:last-child>a{
+  border-right: 0; padding-right: 0;
+}
+
+.navactive span{
+  border-bottom: 2px dashed #000; padding-bottom: 10px;
+}
+
+.section1 img{
+  width: 100%; display: inline-block;
+}
+
+.section1 .carousel{
+  margin-bottom:5px;
+}
+
+.section1 .carousel-indicators{
+  width: auto; left: 100%;right: 0;
+}
+
+.section1 .carousel-indicators li{
+  border-radius: 0;border:1px solid #000;background: #999;
+}
+
+.section1 .carousel-indicators li.active{
+  background: #fff;
+}
+
+.section1 h1{
+  font-family: 'Myriad Roman'; font-size: 23px; color: #ee8305; font-weight: 700; text-transform: uppercase;
+}
+
+.section1 p{
+  font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838; padding:10px 30px; line-height: 1.6;
+}
+
+.section2{
+  background: url(../images/section2.png); background-size: cover;background-repeat: no-repeat;
+}
+
+.section2 h2{
+  font-family: 'Myriad Roman'; font-size: 35px; color: #efe101; font-weight: 700;line-height: 1.5;
+}
+
+.section3{
+  background: #0c1f2a; padding: 40px 0;
+}
+
+.section3 img{
+  display: inline-block;
+}
+
+.section3 h3{
+  font-family: 'Myriad Roman'; font-size: 23px; color: #ee8305; font-weight: 700;
+}
+
+.section3 p{
+  font-family: 'Myriad Roman'; font-size: 19px; color: #fff; margin-top: 20px; padding: 0 40px;
+}
+
+.section3 p span{
+  color: #ee8305; font-weight: 700; display: block; margin-top: 40px;
+}
+
+.section3 p a{
+  color: #fff; display: block;
+}
+
+.section4 {
+  padding: 40px 0;
+}
+
+.section4 img{
+  display: inline-block;
+}
+
+.section4 h3{
+  font-family: 'Myriad Roman'; font-size: 31px; color: #ee8305; font-weight: 700; text-transform: uppercase;margin-top: 30px;
+}
+
+.section4 p{
+  font-family: 'Myriad Roman'; font-size: 24px; color: #7a7a75;
+}
+
+.section5{
+  background: url(../images/section5-bg.png); background-repeat: no-repeat;background-size: cover; background-attachment: fixed;
+}
+
+.section5 p{
+  font-family: 'Myriad Roman'; font-size: 30px; color: #000; font-weight: 700; margin-top: 30px;
+}
+
+.section5 section{
+  margin-top: 40px; display: inline-block;
+}
+
+.section4 h4{
+  font-family: 'Myriad Roman'; font-size: 27px; color: #10293a; font-weight: 700;
+}
+
+.section4 h4 a{
+  color: #10293a;
+}
+
+footer{
+  background: url(../images/footer.png); background-size: cover; background-repeat: no-repeat;padding: 50px 0;
+}
+
+footer p span a{
+  font-family: 'Myriad Roman'; font-size: 21px; color: #ee8505; font-weight: 700;
+}
+
+footer p{
+  font-family: 'Myriad Roman'; font-size: 17px; color: #bbbaba;
+}
+
+footer p a{
+  color: #bbbaba;
+}
+
+.inner-background{
+  position: relative;margin-bottom: 5px;
+}
+
+.inner-background h1{
+  position: absolute;left: 0; right: 0; top: 35%;color: #fff;font-family: 'Myriad Roman'; font-size: 35px;font-weight: 700;text-transform: uppercase;
+}
+
+.section6 img{
+  width: 100%; display: inline-block;
+}
+
+.section7{
+  padding: 40px 0;
+}
+
+.section7 h4{
+  font-family: 'Myriad Roman'; font-size: 23px; color: #ee8505; font-weight: 700;
+}
+
+.section7 ul li{
+  font-family: 'Myriad Roman'; font-size: 18px;list-style-image: url(../images/list-item.png); margin: 10px auto;
+}
+
+.section7 h5{
+  font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838; font-weight: 700;line-height: 1.8;margin: 20px auto;
+}
+
+.section7 img{
+  display: inline-block;
+}
+
+.section7 h3{
+  font-family: 'Myriad Roman'; font-size: 24px; color: #3c3838; font-weight: 700;line-height: 1.8;margin: 20px auto;
+}
+
+.section7 p{
+  font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838;line-height: 1.8;margin: 20px auto;
+}
+
+.section7 section{
+  margin: 20px auto; background: #ee7c05; padding: 20px 20px;
+}
+
+.section7 section ul li{
+  font-weight: 700; font-size: 27px;list-style-image: url(../images/list-item2.png); color: #ebd663;margin-left: 30px;
+}
+
+.section8{
+  padding: 40px 0;
+}
+
+.section8 section{
+  background: #fff;padding: 30px 0;border: 1px solid #333;
+}
+
+.section8 img{
+  display: inline-block
+  ;}
+
+.section8 section h3{
+  font-family: 'Myriad Roman'; font-size: 21px; color: #ee8505; font-weight: 700;
+}
+
+.section8 section p{
+  font-family: 'Myriad Roman'; font-size: 18px; color: #3c3838;
+}
+
+.section8 section p a{
+  color: #3c3838;
+}
+
+.section8 .form-control{
+  border: 1px solid #777272; border-radius: 0;
+}
+
+.section8 .btn{
+  background: #ee8305; color: #fff; padding: 10px 30px;font-weight: 700;font-family: 'Myriad Roman'; font-size: 17px;
+}
+
+.section8 label{
+  font-family: 'Myriad Roman'; font-size: 16px; color: #777272
+}
+
+@keyframes zoomIn{
+  0%{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}
+}
+
+.alert{
+   animation-name: zoomIn; animation-duration: 1s; animation-fill-mode: both; background: #020202c7; color: #fff; max-width: 800px; top:45%; font-size: 20px; height: 200px; text-align: center; position: fixed; z-index: 9999; left: 0; right: 0; line-height: 28px; padding-top: 80px; box-shadow: 0px 0px 10px #000; margin: 0 auto; }
+.alert button{color:#fff; opacity:1;
+}
+.notfound-pg {
+  min-height: 340px;
+}
+
+.notfound-pg h1 {
+  font-family: 'Myriad Roman';font-size: 70px;margin: 80px 0 0 0;font-weight: bold;color: #ee7305;text-shadow: 1px 1px 0 #000;
+}
+
+.notfound-pg h3 {
+  font-size: 26px;color: #000;text-align: center;margin: 10px 0 20px 0;
+}
+
+.notfound-pg p {
+  font-size: 16px;color: #333;text-align: center;margin: 0;
+}
+
 .contact-ty h3 {
     font-size: 31px;
     margin: 40px 0 15px 0;
